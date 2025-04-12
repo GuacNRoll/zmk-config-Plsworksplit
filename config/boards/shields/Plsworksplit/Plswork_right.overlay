@@ -1,15 +1,10 @@
 #include "Plswork.dtsi"
 
- / {
-    chosen {
-        zmk,side = "right";
-    };
-
-    &default_transform { // Offset of 7 because the left side has 7 columns
+&default_transform { // Offset of 7 because the left side has 7 columns
     col-offset = <7>;
-    };
+};
 
-    &kscan0 {
+&kscan0 {
     col-gpios = <&pro_micro 10 (GPIO_ACTIVE_HIGH)>,
                 <&pro_micro 16 (GPIO_ACTIVE_HIGH)>,
                 <&pro_micro 14 (GPIO_ACTIVE_HIGH)>,
@@ -17,5 +12,10 @@
                 <&pro_micro 7 (GPIO_ACTIVE_HIGH)>,
                 <&pro_micro 8 (GPIO_ACTIVE_HIGH)>,
                 <&pro_micro 9 (GPIO_ACTIVE_HIGH)>;
+};
+
+ / {
+    chosen {
+        zmk,side = "right";
     };
 };
