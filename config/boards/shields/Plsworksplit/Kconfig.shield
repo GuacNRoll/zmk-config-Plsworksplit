@@ -1,0 +1,5 @@
+config SHIELD_PLSWORK_LEFT
+    def_bool $(shields_list_contains,Plswork_left)
+
+config SHIELD_PLSWORK_RIGHT
+    def_bool $(shields_list_contains,Plswork_right)
