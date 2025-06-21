@@ -1,0 +1,93 @@
+#include <physical_layouts.dtsi>
+
+/ {
+    physical_layout0: physical_layout_0 {
+        compatible = "zmk,physical-layout";
+        display-name = "Default Layout";
+        kscan = <&default_kscan>;
+        transform = <&transform>;
+
+        keys =
+              //                    w    h    x     y     rot    rx    ry
+              // Row 0
+              <&key_physical_attrs 100  100   0    100       0     0     0>
+            , <&key_physical_attrs 100  100  100    100       0     0     0>
+            , <&key_physical_attrs 100  100  200    25       0     0     0>
+            , <&key_physical_attrs 100  100  300    0       0     0     0>
+            , <&key_physical_attrs 100  100  400    25       0     0     0>
+            , <&key_physical_attrs 100  100  500    50       0     0     0>
+            , <&key_physical_attrs  0    0    0     0       0     0     0> //Place Holder
+            , <&key_physical_attrs  0    0    0     0       0     0     0> //Place Holder
+            , <&key_physical_attrs 100  100  800    50       0     0     0>
+            , <&key_physical_attrs 100  100  900    25       0     0     0>
+            , <&key_physical_attrs 100  100  1000    0       0     0     0>
+            , <&key_physical_attrs 100  100  1100    25       0     0     0>
+            , <&key_physical_attrs 100  100  1200    100       0     0     0>
+            , <&key_physical_attrs 100  100  1300    100     0     0     0>
+
+              // Row 1
+            , <&key_physical_attrs 100  100   0     100     0     0     0>
+            , <&key_physical_attrs 100  100  100    0       0     0     0>
+            , <&key_physical_attrs 100  100  200    0       0     0     0>
+            , <&key_physical_attrs 100  100  300    0       0     0     0>
+            , <&key_physical_attrs 100  100  100    0       0     0     0>
+            , <&key_physical_attrs 100  100  200    0       0     0     0>
+            , <&key_physical_attrs 100  100  300    0       0     0     0>
+            , <&key_physical_attrs 100  100  100    0       0     0     0>
+            , <&key_physical_attrs 100  100  200    0       0     0     0>
+            , <&key_physical_attrs 100  100  300    0       0     0     0>
+            , <&key_physical_attrs 100  100  100    0       0     0     0>
+            , <&key_physical_attrs 100  100  200    0       0     0     0>
+            , <&key_physical_attrs 100  100  300    0       0     0     0>
+            , <&key_physical_attrs 100  100  300    0       0     0     0>
+
+            // Row 2
+            , <&key_physical_attrs 100  100   0     200     0     0     0>
+            , <&key_physical_attrs 100  100  100    0       0     0     0>
+            , <&key_physical_attrs 100  100  200    0       0     0     0>
+            , <&key_physical_attrs 100  100  300    0       0     0     0>
+            , <&key_physical_attrs 100  100  100    0       0     0     0>
+            , <&key_physical_attrs 100  100  200    0       0     0     0>
+            , <&key_physical_attrs 100  100  300    0       0     0     0>
+            , <&key_physical_attrs 100  100  100    0       0     0     0>
+            , <&key_physical_attrs 100  100  200    0       0     0     0>
+            , <&key_physical_attrs 100  100  300    0       0     0     0>
+            , <&key_physical_attrs 100  100  100    0       0     0     0>
+            , <&key_physical_attrs 100  100  200    0       0     0     0>
+            , <&key_physical_attrs 100  100  300    0       0     0     0>
+            , <&key_physical_attrs 100  100  300    0       0     0     0>
+
+            // Row 3
+            , <&key_physical_attrs  0    0    0     0       0     0     0> //Place Holder
+            , <&key_physical_attrs  0    0    0     0       0     0     0> //Place Holder
+            , <&key_physical_attrs  0    0    0     0       0     0     0> //Place Holder
+            , <&key_physical_attrs  0    0    0     0       0     0     0> //Place Holder
+            , <&key_physical_attrs 100  100  100    0       0     0     0>
+            , <&key_physical_attrs 100  100  200    0       0     0     0>
+            , <&key_physical_attrs 100  100  300    0       0     0     0>
+            , <&key_physical_attrs 100  100  100    0       0     0     0>
+            , <&key_physical_attrs 100  100  200    0       0     0     0>
+            , <&key_physical_attrs 100  100  300    0       0     0     0>
+            , <&key_physical_attrs 100  100  100    0       0     0     0>
+            , <&key_physical_attrs 100  100  200    0       0     0     0>
+            , <&key_physical_attrs 100  100  300    0       0     0     0>
+            , <&key_physical_attrs 100  100  300    0       0     0     0>
+            
+            // Row 4
+            , <&key_physical_attrs 100  100   0     400     0     0     0>
+            , <&key_physical_attrs 100  100  100    0       0     0     0>
+            , <&key_physical_attrs 100  100  200    0       0     0     0>
+            , <&key_physical_attrs 100  100  300    0       0     0     0>
+            , <&key_physical_attrs 100  100  100    0       0     0     0>
+            , <&key_physical_attrs 100  100  200    0       0     0     0>
+            , <&key_physical_attrs 100  100  300    0       0     0     0>
+            , <&key_physical_attrs 100  100  100    0       0     0     0>
+            , <&key_physical_attrs 100  100  200    0       0     0     0>
+            , <&key_physical_attrs 100  100  300    0       0     0     0>
+            , <&key_physical_attrs  0    0    0     0       0     0     0> //Place Holder
+            , <&key_physical_attrs  0    0    0     0       0     0     0> //Place Holder
+            , <&key_physical_attrs  0    0    0     0       0     0     0> //Place Holder
+            , <&key_physical_attrs  0    0    0     0       0     0     0> //Place Holder
+            ;
+    };
+};
