@@ -11,10 +11,10 @@
         default_layer {
             bindings = <
                 
-                &kp ESC   &kp Q  &kp W  &kp E  &kp R       &kp T      &none                   &none          &kp U          &kp I      &kp O       &kp P     &kp LBKT &kp RBKT   
-                &kp TAB   &kp A  &kp S  &kp D  &kp F       &kp G      &kp Y                   &kp H          &kp J          &kp K      &kp L       &kp A     &kp SEMI &kp APOS      
-                &kp LCTRL &kp Z  &kp X  &kp C  &kp V       &kp B      &kp Z                   &kp N          &kp M          &kp COMMA  &kp PERIOD  &kp FSLH  &kp BSLH &kp LALT
-                &none     &none  &none  &none  &kp LSHIFT  &kp SPACE  &kp BACKSPACE           &mo BLE_Layer  &kp C_AL_CALC  &kp LWIN   &none       &none     &none    &none
+                &kp ESC   &kp Q  &kp W  &kp E  &kp R       &kp T      &none                   &none          &kp U           &kp I      &kp O       &kp P     &kp LBKT &kp RBKT   
+                &kp TAB   &kp A  &kp S  &kp D  &kp F       &kp G      &kp Y                   &kp H          &kp J           &kp K      &kp L       &kp A     &kp SEMI &kp APOS      
+                &kp LCTRL &kp Z  &kp X  &kp C  &kp V       &kp B      &kp Z                   &kp N          &kp M           &kp COMMA  &kp PERIOD  &kp FSLH  &kp BSLH &kp LALT
+                &none     &none  &none  &none  &kp LSHIFT  &kp SPACE  &kp BACKSPACE           &mo BLE_Layer  &studio_unlock  &kp LWIN   &none       &none     &none    &none
             >;
         };
 
