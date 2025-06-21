@@ -21,9 +21,12 @@
 include:
   - board: nice_nano_v2
     shield: Plswork_left
-  - board: nice_nano_v2
-    shield: Plswork_right
-  - board: nice_nano_v2
-    shield: settings_reset
     snippet: studio-rpc-usb-uart
     cmake-args: -DCONFIG_ZMK_STUDIO=y
+    artifact-name: Plswork_left_studio
+
+  - board: nice_nano_v2
+    shield: Plswork_right
+
+  - board: nice_nano_v2
+    shield: settings_reset
