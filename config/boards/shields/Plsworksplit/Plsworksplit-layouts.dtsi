@@ -61,11 +61,11 @@
             // Row 3
            
             , <&key_physical_attrs 100  100 400   350     0     0     0>
-            , <&key_physical_attrs 100  100 500   350     5     5     0>
-            , <&key_physical_attrs 100  100 600   350     10     10     0>
+            , <&key_physical_attrs 100  100 500   350     -5     500     350>
+            , <&key_physical_attrs 100  100 600   350     -10     600     350>
 
-            , <&key_physical_attrs 100  100 900   350     10     10     0>
-            , <&key_physical_attrs 100  100 1000   350     5     5     0>
+            , <&key_physical_attrs 100  100 900   350     10     900     350>
+            , <&key_physical_attrs 100  100 1000   350     5     1000     350>
             , <&key_physical_attrs 100  100 1100   350     0     0     0>
             ;
     };
